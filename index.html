@@ -100,7 +100,7 @@
                 margin: 0vh 0 3vh;
             }
         }
-        @media all and (orientation: landscape){
+        @media all and (orientation: landscape) and (max-width: 801px){
             .principal{
                 min-height: 100vh;
             }
@@ -113,7 +113,7 @@
                 $('.parallax-window').parallax({imageSrc: 'images/promos/background-mobile.png'});
             }
             else{
-                $('.parallax-window').parallax({imageSrc: 'images/promos/background.png'});
+                $('.parallax-window').parallax({imageSrc: 'images/promos/background-2.png'});
             }
             for (var i = 1; i <= 39; i++) {
                 $("#promociones").append('<img src="images/promos/promo-'+i+'.svg" width="30%" alt="Promocion '+i+'">');
