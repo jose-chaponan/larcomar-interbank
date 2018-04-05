@@ -60,6 +60,7 @@
             background-color: #212844;
             color: #fff;
             padding: 7vh 0;
+            margin-bottom: -7vh;
         }
         footer a{
             color: #fff;
@@ -80,6 +81,29 @@
         aside a img{
             height: 5vh;
             margin: 2vh 0.5vw;
+        }
+        @media all and (max-width: 801px){
+            .promociones::after,
+            .promociones::before{
+                display: none;
+            }
+            .principal{
+                min-height: 55vh;
+            }
+            html{
+                font-size: 40.5%;
+            }
+            .promociones img:last-child{
+                display: none;
+            }
+            .operadores {
+                margin: 0vh 0 3vh;
+            }
+        }
+        @media all and (orientation: landscape){
+            .principal{
+                min-height: 100vh;
+            }
         }
     </style>
     <script>
@@ -111,7 +135,7 @@
     <!-- End Facebook Pixel Code  26/04/2016-->
 
 </head>
-<body class="section_top_center w_100 full_min_h">
+<body class="section_top_center w_100">
     <script type="text/javascript"> _linkedin_data_partner_id = "210889"; </script><script type="text/javascript"> (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=210889&fmt=gif" /> </noscript>
     <script>
     var rnd = Math.random()*1000;
